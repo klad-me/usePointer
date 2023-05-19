@@ -1,0 +1,40 @@
+{
+  "name": "usePointer",
+  "version": "0.1.0",
+  "description": "Simple preact hook for handling pointer (mouse or touch)",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "build": "npx tsc",
+    "doc": "npx typedoc",
+    "format": "npx prettier --write \"src/**/*.ts\"",
+    "lint": "npx tslint -p tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/klad-me/usePointer.git"
+  },
+  "keywords": [
+    "preact",
+    "hook",
+    "pointer",
+    "pointer-events",
+    "usePointer"
+  ],
+  "author": "Alexey Presniakov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/klad-me/usePointer/issues"
+  },
+  "homepage": "https://github.com/klad-me/usePointer#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "preact": "^10.14.1"
+  }
+}
