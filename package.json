@@ -1,6 +1,6 @@
 {
   "name": "@klad-me/use-pointer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Simple preact hook for handling pointer (mouse or touch)",
   "main": "lib/usePointer.js",
   "types": "lib/usePointer.d.ts",
